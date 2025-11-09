@@ -1,4 +1,4 @@
-s# Notifications Demo
+# Notifications Demo
 
 This is a small frontend application built with Next.js (App Router) and React Query, implementing a clean and responsive notifications UI. The goal was to write code that is easy to understand, easy to maintain, and behaves predictably.
 ### Features
