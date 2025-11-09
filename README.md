@@ -4,6 +4,7 @@ This is a small frontend application built with Next.js (App Router) and React Q
 ### Features
 
 - Fetch notifications from a public API
+- Accessiblity & keyboard navigation TAB
 - Filter by type (info, warning, success, error)
 - Search notifications by title or message
 - Mark individual notifications as read
@@ -12,6 +13,7 @@ This is a small frontend application built with Next.js (App Router) and React Q
 - Light/Dark mode toggle
 - Smooth loading states with skeleton placeholders
 - Responsive layout
+- SEO
 
 ### Tech Decisions
 
