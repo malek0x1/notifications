@@ -9,7 +9,9 @@ This is a small frontend application built with Next.js (App Router) and React Q
 - Mark individual notifications as read
 - Mark all notifications as read (optimistic update)
 - Polling every 30 seconds to automatically refresh
+- Light/Dark mode toggle
 - Smooth loading states with skeleton placeholders
+- Responsive layout
 
 ### Tech Decisions
 
