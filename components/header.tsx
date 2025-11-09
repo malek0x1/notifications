@@ -40,10 +40,12 @@ export function PageHeader({
         <ThemeToggle />
       </div>
 
-      <div className="flex items-center justify-between gap-4">
-        <FilterBar value={filter} onChange={onFilterChange} />
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <div className="min-w-0 sm:flex-1">
+          <FilterBar value={filter} onChange={onFilterChange} />
+        </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 shrink-0">
           <div className="inline-flex items-center gap-2 rounded-full bg-neutral-900 px-3 py-1 text-sm font-medium text-white dark:bg-neutral-100 dark:text-neutral-900">
             <span>Unread</span>
             <span className="rounded-full bg-white px-2 py-0.5 text-xs font-semibold text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
@@ -54,7 +56,7 @@ export function PageHeader({
           <button
             onClick={onMarkAllAsRead}
             disabled={unreadCount === 0}
-            className="text-xs cursor-pointer text-neutral-500 hover:text-neutral-900 disabled:opacity-30 disabled:cursor-not-allowed transition dark:text-neutral-400 dark:hover:text-neutral-100"
+            className="text-xs whitespace-nowrap shrink-0 cursor-pointer text-neutral-500 hover:text-neutral-900 disabled:opacity-30 disabled:cursor-not-allowed transition dark:text-neutral-400 dark:hover:text-neutral-100"
           >
             Mark all as read
           </button>
